@@ -1,5 +1,11 @@
+import Hero from "./_components/lp/hero";
+
 const Home = () => {
-  return <h1>Hello world!</h1>;
+  return (
+    <div className="max-w-7xl mx-auto">
+      <Hero />
+    </div>
+  );
 };
 
 export default Home;
